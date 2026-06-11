@@ -1,0 +1,46 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 800" fill="none">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A3A52"/>
+      <stop offset="100%" stop-color="#2D5A6E"/>
+    </linearGradient>
+    <pattern id="grid2" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#006E7E" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="1920" height="800" fill="url(#sky2)"/>
+  <!-- Grid overlay (BIM/top view feel) -->
+  <rect width="1920" height="800" fill="url(#grid2)"/>
+  <!-- Aerial site plan blocks -->
+  <!-- Building footprints -->
+  <rect x="200" y="200" width="320" height="200" fill="#0D3347" stroke="#006E7E" stroke-width="2"/>
+  <rect x="600" y="150" width="400" height="280" fill="#0D3347" stroke="#006E7E" stroke-width="2"/>
+  <rect x="1100" y="180" width="260" height="340" fill="#0D3347" stroke="#00A3B8" stroke-width="2"/>
+  <rect x="1450" y="220" width="280" height="200" fill="#0D3347" stroke="#006E7E" stroke-width="2"/>
+  <!-- Smaller buildings -->
+  <rect x="220" y="460" width="120" height="100" fill="#0A2535" stroke="#006E7E" stroke-width="1.5"/>
+  <rect x="380" y="460" width="100" height="100" fill="#0A2535" stroke="#006E7E" stroke-width="1.5"/>
+  <!-- Roads -->
+  <rect x="0" y="480" width="1920" height="30" fill="#081C28"/>
+  <rect x="560" y="0" width="30" height="800" fill="#081C28"/>
+  <rect x="1060" y="0" width="30" height="800" fill="#081C28"/>
+  <!-- Parking lots -->
+  <rect x="220" y="520" width="260" height="120" fill="#061420" stroke="#006E7E" stroke-width="1" opacity="0.6"/>
+  <!-- Internal building structure lines -->
+  <line x1="360" y1="200" x2="360" y2="400" stroke="#006E7E" stroke-width="1" opacity="0.5"/>
+  <line x1="200" y1="300" x2="520" y2="300" stroke="#006E7E" stroke-width="1" opacity="0.5"/>
+  <line x1="800" y1="150" x2="800" y2="430" stroke="#006E7E" stroke-width="1" opacity="0.5"/>
+  <line x1="600" y1="290" x2="1000" y2="290" stroke="#006E7E" stroke-width="1" opacity="0.5"/>
+  <!-- Teal accent on key structures -->
+  <rect x="200" y="200" width="320" height="8" fill="#006E7E"/>
+  <rect x="600" y="150" width="400" height="8" fill="#006E7E"/>
+  <rect x="1100" y="180" width="260" height="8" fill="#00A3B8"/>
+  <!-- Dimension lines -->
+  <line x1="200" y1="640" x2="520" y2="640" stroke="#006E7E" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+  <line x1="600" y1="640" x2="1000" y2="640" stroke="#006E7E" stroke-width="1" stroke-dasharray="6,3" opacity="0.5"/>
+  <!-- Scale/legend -->
+  <rect x="1700" y="720" width="180" height="50" fill="#0A2535" opacity="0.8"/>
+  <text x="1790" y="740" font-family="monospace" font-size="10" fill="#006E7E" text-anchor="middle">PLANTA AÉREA</text>
+  <line x1="1720" y1="753" x2="1860" y2="753" stroke="#006E7E" stroke-width="1.5"/>
+  <text x="1790" y="763" font-family="monospace" font-size="9" fill="#4A8A98" text-anchor="middle">0   50   100m</text>
+</svg>

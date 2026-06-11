@@ -1,0 +1,32 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0A1E2E"/>
+  <!-- Isometric BIM grid -->
+  <defs>
+    <pattern id="isogrid" width="60" height="34.6" patternUnits="userSpaceOnUse">
+      <path d="M 0 17.3 L 30 0 L 60 17.3 L 30 34.6 Z" fill="none" stroke="#006E7E" stroke-width="0.4" opacity="0.2"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" fill="url(#isogrid)"/>
+  <!-- Isometric foundation block -->
+  <!-- Top face -->
+  <path d="M 400 100 L 580 200 L 400 300 L 220 200 Z" fill="#1E3A4A"/>
+  <path d="M 400 100 L 580 200 L 400 300 L 220 200 Z" fill="none" stroke="#006E7E" stroke-width="1.5"/>
+  <!-- Right face -->
+  <path d="M 580 200 L 580 360 L 400 460 L 400 300 Z" fill="#152A38"/>
+  <path d="M 580 200 L 580 360 L 400 460 L 400 300 Z" fill="none" stroke="#006E7E" stroke-width="1.5"/>
+  <!-- Left face -->
+  <path d="M 220 200 L 220 360 L 400 460 L 400 300 Z" fill="#0D2535"/>
+  <path d="M 220 200 L 220 360 L 400 460 L 400 300 Z" fill="none" stroke="#006E7E" stroke-width="1.5"/>
+  <!-- Internal grid on top face -->
+  <line x1="310" y1="150" x2="490" y2="250" stroke="#006E7E" stroke-width="0.8" opacity="0.5"/>
+  <line x1="355" y1="125" x2="445" y2="275" stroke="#006E7E" stroke-width="0.8" opacity="0.5"/>
+  <line x1="355" y1="275" x2="445" y2="125" stroke="#006E7E" stroke-width="0.8" opacity="0.5"/>
+  <!-- Dimension labels -->
+  <line x1="590" y1="200" x2="630" y2="178" stroke="#00A3B8" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="635" y="175" font-family="monospace" font-size="10" fill="#00A3B8">W: 24.5m</text>
+  <line x1="590" y1="360" x2="640" y2="390" stroke="#00A3B8" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="645" y="393" font-family="monospace" font-size="10" fill="#00A3B8">H: 8.0m</text>
+  <!-- Label -->
+  <rect x="0" y="445" width="800" height="55" fill="#006E7E" opacity="0.9"/>
+  <text x="400" y="478" font-family="Arial" font-size="15" font-weight="700" fill="white" text-anchor="middle">MODELAGEM BIM · FUNDAÇÕES</text>
+</svg>

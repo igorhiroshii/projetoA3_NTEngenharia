@@ -1,0 +1,26 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#F5F0EB"/>
+  <!-- Floor -->
+  <rect y="360" width="800" height="140" fill="#EDE8E3"/>
+  <!-- Wall -->
+  <rect x="0" y="0" width="800" height="360" fill="#F8F5F2"/>
+  <!-- Window wall -->
+  <rect x="80" y="40" width="500" height="300" fill="#D4EAF0" stroke="#C0D0D8" stroke-width="2"/>
+  <!-- Window frames -->
+  <line x1="180" y1="40" x2="180" y2="340" stroke="#C0D0D8" stroke-width="3"/>
+  <line x1="280" y1="40" x2="280" y2="340" stroke="#C0D0D8" stroke-width="3"/>
+  <line x1="380" y1="40" x2="380" y2="340" stroke="#C0D0D8" stroke-width="3"/>
+  <line x1="480" y1="40" x2="480" y2="340" stroke="#C0D0D8" stroke-width="3"/>
+  <line x1="80" y1="190" x2="580" y2="190" stroke="#C0D0D8" stroke-width="2"/>
+  <!-- Interior elements -->
+  <rect x="630" y="200" width="120" height="160" fill="#E8E3DE" stroke="#D0C8C0" stroke-width="1.5"/>
+  <!-- Table -->
+  <rect x="200" y="340" width="280" height="20" fill="#C8B8A0"/>
+  <rect x="220" y="360" width="8" height="30" fill="#B0A090"/>
+  <rect x="452" y="360" width="8" height="30" fill="#B0A090"/>
+  <!-- Teal accent wall section -->
+  <rect x="630" y="0" width="8" height="360" fill="#006E7E" opacity="0.6"/>
+  <!-- Label -->
+  <rect x="0" y="445" width="800" height="55" fill="#006E7E" opacity="0.9"/>
+  <text x="400" y="478" font-family="Arial" font-size="15" font-weight="700" fill="white" text-anchor="middle">RENDER ARQUITETÔNICO</text>
+</svg>

@@ -1,0 +1,56 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#EBF4F6"/>
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#006E7E" stroke-width="0.3" opacity="0.2"/>
+  </pattern>
+  <rect width="400" height="500" fill="url(#grid)"/>
+  <!-- Suit body -->
+  <rect x="80" y="300" width="240" height="200" rx="0" fill="#1A3A4A"/>
+  <!-- Shirt/tie area -->
+  <path d="M 160 300 L 200 380 L 240 300" fill="#006E7E" opacity="0.8"/>
+  <!-- Tie -->
+  <path d="M 195 305 L 200 370 L 205 305 Z" fill="#004A56"/>
+  <!-- Collar left -->
+  <path d="M 160 300 L 185 340 L 185 300 Z" fill="white" opacity="0.9"/>
+  <!-- Collar right -->
+  <path d="M 240 300 L 215 340 L 215 300 Z" fill="white" opacity="0.9"/>
+  <!-- Jacket lapels -->
+  <path d="M 80 300 L 160 300 L 185 340 L 140 420 L 80 380 Z" fill="#243A4A"/>
+  <path d="M 320 300 L 240 300 L 215 340 L 260 420 L 320 380 Z" fill="#243A4A"/>
+  <!-- Neck -->
+  <rect x="178" y="248" width="44" height="60" rx="8" fill="#D4A574"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="220" rx="72" ry="80" fill="#D4A574"/>
+  <!-- Hair -->
+  <path d="M 128 200 Q 130 130 200 125 Q 270 130 272 200 Q 268 155 200 148 Q 132 155 128 200 Z" fill="#2D1B00"/>
+  <!-- Temple gray -->
+  <path d="M 128 200 Q 130 175 140 168 Q 136 182 132 200 Z" fill="#888" opacity="0.6"/>
+  <path d="M 272 200 Q 270 175 260 168 Q 264 182 268 200 Z" fill="#888" opacity="0.6"/>
+  <!-- Eyes -->
+  <ellipse cx="175" cy="215" rx="10" ry="7" fill="white"/>
+  <ellipse cx="225" cy="215" rx="10" ry="7" fill="white"/>
+  <circle cx="176" cy="215" r="5" fill="#2D1B00"/>
+  <circle cx="226" cy="215" r="5" fill="#2D1B00"/>
+  <circle cx="178" cy="213" r="2" fill="white" opacity="0.7"/>
+  <circle cx="228" cy="213" r="2" fill="white" opacity="0.7"/>
+  <!-- Eyebrows -->
+  <path d="M 163 204 Q 175 198 187 202" stroke="#2D1B00" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 213 202 Q 225 198 237 204" stroke="#2D1B00" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Nose -->
+  <path d="M 200 220 L 195 238 Q 200 242 205 238 Z" fill="#C49060" opacity="0.6"/>
+  <!-- Mouth -->
+  <path d="M 182 252 Q 200 262 218 252" stroke="#A0704A" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Ears -->
+  <ellipse cx="128" cy="222" rx="12" ry="16" fill="#D4A574"/>
+  <ellipse cx="272" cy="222" rx="12" ry="16" fill="#D4A574"/>
+  <!-- Glasses -->
+  <rect x="163" y="208" width="24" height="16" rx="5" fill="none" stroke="#2D2D2D" stroke-width="1.8"/>
+  <rect x="213" y="208" width="24" height="16" rx="5" fill="none" stroke="#2D2D2D" stroke-width="1.8"/>
+  <line x1="187" y1="216" x2="213" y2="216" stroke="#2D2D2D" stroke-width="1.8"/>
+  <!-- Caption bar -->
+  <rect x="0" y="440" width="400" height="60" fill="#006E7E" opacity="0.9"/>
+  <text x="200" y="465" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="white" text-anchor="middle">Carlos Henrique</text>
+  <text x="200" y="485" font-family="Arial, sans-serif" font-weight="400" font-size="12" fill="#A8D8E0" text-anchor="middle">CEO &amp; Fundador · NT Engenharia</text>
+</svg>

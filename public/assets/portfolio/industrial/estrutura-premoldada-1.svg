@@ -1,0 +1,31 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0D2535"/>
+  <rect y="380" width="800" height="120" fill="#081820"/>
+  <!-- Columns pre-cast -->
+  <rect x="80" y="160" width="30" height="220" fill="#2A3A46"/>
+  <rect x="200" y="120" width="30" height="260" fill="#2A3A46"/>
+  <rect x="320" y="100" width="30" height="280" fill="#2A3A46"/>
+  <rect x="440" y="100" width="30" height="280" fill="#2A3A46"/>
+  <rect x="560" y="120" width="30" height="260" fill="#2A3A46"/>
+  <rect x="680" y="160" width="30" height="220" fill="#2A3A46"/>
+  <!-- Column details: corbels -->
+  <rect x="73" y="240" width="44" height="20" rx="2" fill="#006E7E"/>
+  <rect x="193" y="220" width="44" height="20" rx="2" fill="#006E7E"/>
+  <rect x="313" y="200" width="44" height="20" rx="2" fill="#006E7E"/>
+  <rect x="433" y="200" width="44" height="20" rx="2" fill="#006E7E"/>
+  <rect x="553" y="220" width="44" height="20" rx="2" fill="#006E7E"/>
+  <rect x="673" y="240" width="44" height="20" rx="2" fill="#006E7E"/>
+  <!-- Beams spanning between columns -->
+  <rect x="80" y="158" width="150" height="14" fill="#1E3A4A"/>
+  <rect x="200" y="118" width="150" height="14" fill="#1E3A4A"/>
+  <rect x="320" y="98" width="150" height="14" fill="#1E3A4A"/>
+  <rect x="440" y="98" width="150" height="14" fill="#1E3A4A"/>
+  <rect x="560" y="118" width="150" height="14" fill="#1E3A4A"/>
+  <!-- Roof panels on top -->
+  <rect x="80" y="144" width="630" height="16" fill="#006E7E" opacity="0.6"/>
+  <!-- Ground slab -->
+  <rect x="60" y="375" width="680" height="10" fill="#1E3A4A"/>
+  <!-- Label -->
+  <rect x="0" y="440" width="800" height="60" fill="#006E7E" opacity="0.9"/>
+  <text x="400" y="476" font-family="Arial" font-size="15" font-weight="700" fill="white" text-anchor="middle">ESTRUTURA PRÉ-MOLDADA</text>
+</svg>

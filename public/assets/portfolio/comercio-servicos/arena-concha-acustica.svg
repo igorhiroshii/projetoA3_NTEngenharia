@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#0A1E2E"/>
+  <rect y="400" width="800" height="100" fill="#061420"/>
+  <!-- Oval arena shape -->
+  <ellipse cx="400" cy="260" rx="320" ry="200" fill="none" stroke="#006E7E" stroke-width="3"/>
+  <ellipse cx="400" cy="260" rx="300" ry="182" fill="#0D2535"/>
+  <!-- Seating tiers -->
+  <ellipse cx="400" cy="260" rx="260" ry="155" fill="none" stroke="#1E3A4A" stroke-width="6"/>
+  <ellipse cx="400" cy="260" rx="220" ry="128" fill="none" stroke="#1E3A4A" stroke-width="6"/>
+  <ellipse cx="400" cy="260" rx="180" ry="102" fill="none" stroke="#1E3A4A" stroke-width="6"/>
+  <!-- Field -->
+  <ellipse cx="400" cy="260" rx="140" ry="78" fill="#0D3020"/>
+  <ellipse cx="400" cy="260" rx="110" ry="58" fill="none" stroke="#1A5A30" stroke-width="2"/>
+  <!-- Structural arches -->
+  <path d="M 80 260 Q 400 20 720 260" fill="none" stroke="#006E7E" stroke-width="2.5" opacity="0.5"/>
+  <path d="M 80 260 Q 400 500 720 260" fill="none" stroke="#006E7E" stroke-width="2.5" opacity="0.5"/>
+  <!-- Roof structure lines -->
+  <line x1="400" y1="60" x2="80" y2="260" stroke="#006E7E" stroke-width="1.5" opacity="0.4"/>
+  <line x1="400" y1="60" x2="720" y2="260" stroke="#006E7E" stroke-width="1.5" opacity="0.4"/>
+  <line x1="400" y1="460" x2="80" y2="260" stroke="#006E7E" stroke-width="1.5" opacity="0.4"/>
+  <line x1="400" y1="460" x2="720" y2="260" stroke="#006E7E" stroke-width="1.5" opacity="0.4"/>
+  <!-- Label -->
+  <rect x="0" y="445" width="800" height="55" fill="#006E7E" opacity="0.9"/>
+  <text x="400" y="478" font-family="Arial" font-size="15" font-weight="700" fill="white" text-anchor="middle">ARENA · COMÉRCIO E SERVIÇOS</text>
+</svg>

@@ -1,0 +1,37 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" fill="#1A3040"/>
+  <!-- Sky -->
+  <rect width="800" height="280" fill="#0D2535"/>
+  <!-- Ground -->
+  <rect y="400" width="800" height="100" fill="#0A1C28"/>
+  <!-- Main galpão structure -->
+  <!-- Roof ridge -->
+  <path d="M 100 220 L 400 120 L 700 220 Z" fill="#1E3A4A" stroke="#006E7E" stroke-width="2"/>
+  <!-- Roof panels -->
+  <line x1="175" y1="220" x2="400" y2="120" stroke="#006E7E" stroke-width="1" opacity="0.4"/>
+  <line x1="250" y1="220" x2="400" y2="120" stroke="#006E7E" stroke-width="1" opacity="0.4"/>
+  <line x1="325" y1="220" x2="400" y2="120" stroke="#006E7E" stroke-width="1" opacity="0.4"/>
+  <line x1="475" y1="220" x2="400" y2="120" stroke="#006E7E" stroke-width="1" opacity="0.4"/>
+  <line x1="550" y1="220" x2="400" y2="120" stroke="#006E7E" stroke-width="1" opacity="0.4"/>
+  <line x1="625" y1="220" x2="400" y2="120" stroke="#006E7E" stroke-width="1" opacity="0.4"/>
+  <!-- Front wall -->
+  <rect x="100" y="220" width="600" height="180" fill="#152A38"/>
+  <!-- Steel columns -->
+  <rect x="100" y="220" width="12" height="180" fill="#006E7E"/>
+  <rect x="250" y="220" width="10" height="180" fill="#006E7E" opacity="0.7"/>
+  <rect x="400" y="220" width="10" height="180" fill="#006E7E" opacity="0.7"/>
+  <rect x="550" y="220" width="10" height="180" fill="#006E7E" opacity="0.7"/>
+  <rect x="688" y="220" width="12" height="180" fill="#006E7E"/>
+  <!-- Industrial door -->
+  <rect x="310" y="280" width="180" height="120" fill="#0A1E2A"/>
+  <rect x="310" y="280" width="180" height="6" fill="#006E7E"/>
+  <!-- Horizontal beam -->
+  <rect x="100" y="220" width="600" height="8" fill="#006E7E"/>
+  <rect x="100" y="310" width="600" height="6" fill="#1E3A4A"/>
+  <!-- Window panels -->
+  <rect x="120" y="240" width="100" height="60" fill="#0D2535" opacity="0.8"/>
+  <rect x="580" y="240" width="100" height="60" fill="#0D2535" opacity="0.8"/>
+  <!-- Label -->
+  <rect x="0" y="450" width="800" height="50" fill="#006E7E" opacity="0.9"/>
+  <text x="400" y="480" font-family="Arial" font-size="16" font-weight="700" fill="white" text-anchor="middle">GALPÃO METÁLICO INDUSTRIAL</text>
+</svg>
