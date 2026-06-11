@@ -25,7 +25,7 @@ export default function Footer() {
               className="h-10 w-auto mb-4"
             />
             <p className="text-nt-gray-light text-sm leading-relaxed">
-              Mais de 35 anos de experiência em engenharia estrutural.
+              Mais de 15 anos de experiência em engenharia estrutural.
               Transformamos projetos em realidade com excelência técnica e
               inovação.
             </p>

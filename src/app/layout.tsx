@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     template: '%s | NT Engenharia',
   },
   description:
-    'Especialistas em projetos de engenharia civil para indústrias e estruturas de grande porte. Atuamos em concreto armado, estruturas metálicas, fundações e BIM LOD 300, com mais de 35 anos de experiência.',
+    'Especialistas em projetos de engenharia civil para indústrias e estruturas de grande porte. Atuamos em concreto armado, estruturas metálicas, fundações e BIM LOD 300, com mais de 15 anos de experiência.',
   keywords: [
     'engenharia estrutural',
     'projetos de concreto',
@@ -70,7 +70,7 @@ export default function RootLayout({
               url: siteUrl,
               logo: `${siteUrl}/assets/logo/logo-nt-color.svg`,
               description:
-    'Especialistas em projetos de engenharia civil para indústrias e estruturas de grande porte. Atuamos em concreto armado, estruturas metálicas, fundações e BIM LOD 300, com mais de 35 anos de experiência.',
+    'Especialistas em projetos de engenharia civil para indústrias e estruturas de grande porte. Atuamos em concreto armado, estruturas metálicas, fundações e BIM LOD 300, com mais de 15 anos de experiência.',
               address: {
                 '@type': 'PostalAddress',
                 addressLocality: 'São Paulo',

@@ -13,11 +13,11 @@ import { portfolioItems } from '@/lib/data/portfolio'
 export const metadata: Metadata = {
   title: 'NT Engenharia | Novo Tempo Soluções em Engenharia',
   description:
-    'Especialistas em engenharia estrutural, projetos BIM e consultoria técnica. Mais de 35 anos de experiência transformando projetos em realidade.',
+    'Especialistas em engenharia estrutural, projetos BIM e consultoria técnica. Mais de 15 anos de experiência transformando projetos em realidade.',
 }
 
 const stats = [
-  { value: 35, suffix: '+', label: 'Anos de Experiência' },
+  { value: 15, suffix: '+', label: 'Anos de Experiência' },
   { value: 500, suffix: '+', label: 'Projetos Entregues' },
   { value: 7, suffix: '', label: 'Prêmios de Qualidade' },
   { value: 19, suffix: '+', label: 'Clientes de Grande Porte' },
@@ -55,7 +55,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-nt-gray-light text-lg sm:text-xl leading-relaxed mb-8 max-w-xl">
-              Projetos industriais com 30 anos de experiência. Para quem não pode errar.
+              Projetos industriais com 15 anos de experiência. Para quem não pode errar.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -107,7 +107,7 @@ export default function HomePage() {
                 Sobre a NT
               </p>
               <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                Excelência Técnica há mais de 35 Anos
+                Excelência Técnica há mais de 15 Anos
               </h2>
               <p className="text-gray-600 text-lg leading-relaxed mb-6">
                 Fundada em 1988, a Novo Tempo Soluções em Engenharia se tornou

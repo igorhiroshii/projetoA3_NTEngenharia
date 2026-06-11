@@ -35,7 +35,7 @@ const values = [
       </svg>
     ),
     description:
-      'Construída ao longo de 35 anos de relacionamentos duradouros com clientes que retornam projeto após projeto.',
+      'Construída ao longo de 15 anos de relacionamentos duradouros com clientes que retornam projeto após projeto.',
   },
   {
     title: 'Responsabilidade',
@@ -54,7 +54,7 @@ export default function QuemSomosPage() {
     <>
       <PageHero
         title="Quem Somos"
-        subtitle="Mais de 35 anos construindo a engenharia do futuro com raízes sólidas no passado."
+        subtitle="Mais de 15 anos construindo a engenharia do futuro com raízes sólidas no passado."
         image="/assets/hero/hero-alternativo.svg"
         breadcrumb="Sobre a NT"
       />
@@ -120,7 +120,7 @@ export default function QuemSomosPage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-nt-teal rounded-xl p-5 text-white text-center">
-                  <p className="font-display text-3xl font-bold">35+</p>
+                  <p className="font-display text-3xl font-bold">15+</p>
                   <p className="text-white/80 text-xs mt-1">Anos de Experiência</p>
                 </div>
                 <div className="bg-nt-teal-dark rounded-xl p-5 text-white text-center">
